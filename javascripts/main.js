@@ -31,3 +31,25 @@ doMath(20, 3, add);
 
 doMath(99, 6, subtract);
 
+// Arrays:
+
+function sortedPlanets() {
+	return Planets.sort();
+}
+
+function  reverseredPlanets() {
+	return Planets.map
+}
+
+// XHR:
+
+function getAnimals() {
+	$ajax({
+		type: "GET"
+		url:  'data/animals.json'
+	}).done(function(data) {
+		console.log('animals', data.animals);
+	})
+	getAnimals();
+}
+
