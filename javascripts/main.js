@@ -37,9 +37,22 @@ function sortedPlanets() {
 	return Planets.sort();
 }
 
-function  reverseredPlanets() {
-	return Planets.map
+function reversedPlanets(planet) {
+	return planet.map(function(Planets) {
+		return Planets.split("").reverse().join("");
+
+	})
 }
+
+
+function longPlanets(seven) {
+  seven.filter(function(planet) {
+  	planet.length = 7;
+  	return planet;
+  })
+	
+}
+
 
 // XHR:
 
@@ -52,4 +65,6 @@ function getAnimals() {
 	})
 	getAnimals();
 }
+
+
 
