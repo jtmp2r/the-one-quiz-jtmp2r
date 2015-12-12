@@ -27,7 +27,7 @@ function subtract(num1, num2) {
 	console.log(num1 - num2);
 }
 
-doMath(10, 5, add);
+doMath(20, 3, add);
 
-doMath(10, 5, subtract);
+doMath(99, 6, subtract);
 
